@@ -13,7 +13,7 @@ jobs:
         name: second job
         runs-on: ubuntu-lastest
         steps:
-            - name step one
+            - name: step one
               uses: action/checkout@v2
-            - name step two
+            - name: step two
               run: env | sort
